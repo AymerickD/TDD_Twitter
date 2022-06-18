@@ -1,0 +1,21 @@
+{
+    "name": "aymerick/retweetcollection",
+    "description": "Test Driven Development RetweetCollection",
+    "require": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Aymerick Demay",
+            "email": "a.demay@lemon-interactive.fr"
+        }
+    ],
+    "scripts": {
+        "test": "./vendor/bin/phpunit --colors=always tests"
+    }
+}
